@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  targetNamespace="http://www.ensg.eu/tsi2016"
+  xmlns:tsi2016="http://www.ensg.eu/tsi2016"
+  >
+
+  <element name="tsi2016">
+    <complexType>
+      <sequence>
+        <element maxOccurs="unbounded" ref="tsi2016:Personne"/>
+        <element maxOccurs="unbounded" ref="tsi2016:Employeur"/>
+        <element minOccurs="0" maxOccurs="unbounded" ref="tsi2016:Lieu"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="Personne">
+    <complexType>
+      <sequence>
+        <element ref="tsi2016:Fonction"/>
+      </sequence>
+      <attribute name="employeur" use="required" type="string"/>
+      <attribute name="lieu" use="required" type="string"/>
+      <attribute name="nom" use="required" type="string"/>
+      <attribute name="prenom" use="required" type="string"/>
+      <attribute name="service" use="required" type="string"/>
+    </complexType>
+  </element>
+
+   <simpleType name="roles">
+    <restriction base="string">
+      <enumeration value="etudiant" />
+      <enumeration value="eleveFonctionnaire" />
+      <enumeration value="eleveIngenieur" />
+      <enumeration value="enFormationContinue" />
+    </restriction>
+  </simpleType>
+
+  <element name="Fonction">
+    <complexType>
+      <attribute name="role" use="required" type="tsi2016:roles"/>
+    </complexType>
+  </element>
+
+  <element name="Employeur">
+    <complexType>
+      <sequence>
+        <element maxOccurs="unbounded" ref="tsi2016:Direction"/>
+      </sequence>
+      <attribute name="nom" use="required" type="string"/>
+    </complexType>
+  </element>
+
+  <element name="Direction">
+    <complexType>
+      <sequence>
+        <element maxOccurs="unbounded" ref="tsi2016:Service"/>
+      </sequence>
+      <attribute name="nom" use="required" type="string"/>
+    </complexType>
+  </element>
+
+   <element name="Service">
+    <complexType>
+      <attribute name="nom" use="required" type="string"/>
+      <attribute name="agents" use="required" type="integer"/>
+    </complexType>
+  </element>
+
+   <element name="Lieu">
+    <complexType>
+      <sequence>
+        <element maxOccurs="unbounded" ref="tsi2016:Adresse"/>
+        <element minOccurs="0" ref="tsi2016:Coordonnee"/>
+      </sequence>
+      <attribute name="nom" use="required" type="string"/>
+    </complexType>
+  </element>
+
+  <element name="Coordonnee">
+    <complexType>
+      <attribute name="lat" use="required" type="double"/>
+      <attribute name="long" use="required" type="double"/>
+    </complexType>
+  </element>
+
+   <element name="Adresse">
+    <complexType>
+      <attribute name="codePostal" use="required" type="integer"/>
+      <attribute name="no" use="required" type="integer"/>
+      <attribute name="rue" use="required" type="string"/>
+      <attribute name="ville" use="required" type="string"/>
+    </complexType>
+  </element>
+
+</schema>

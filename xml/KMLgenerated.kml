@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:tsi2016="http://www.ensg.eu/tsi2016">
+    <Document>
+        <Placemark xmlns="">
+            <name>hamya hind</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.ERD
+        Service: ENSG.ERD.IST
+        Fonction: etudiant
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>derbouz hanane</name>
+            <description>
+        Employeur: UPEM
+        Direction: UPEM.ERD
+        Service: UPEM.ERD.IST
+        Fonction: etudiant
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>BALTZ Hugo</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.DRE
+        Service: ENSG.DRE.DE
+        Fonction: eleveIngenieur
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>BRINON Victor</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.DRE
+        Service: ENSG.DRE.DE
+        Fonction: eleveFonctionnaire
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>MILLET Rudolf</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.Direction_des_Etudes
+        Service: ENSG.Direction_des_Etudes.TSI
+        Fonction: eleveIngenieur
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Er-razki Sibawaih</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.DRE
+        Service: ENSG.DRE.Ministere_de_l_ecologie
+        Fonction: eleveIngenieur
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>SLIM Anas</name>
+            <description>
+        Employeur: UPEM
+        Direction: UPEM.DRE
+        Service: UPEM.DRE.Ministere_de_l_enseignement_sup
+        Fonction: etudiant
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Marcuzzi Julie</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.DRE
+        Service: ENSG.DRE.Direction_des_etudes
+        Fonction: eleveFonctionnaire
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Darroman Elsa</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.DRE
+        Service: ENSG.DRE.Direction_des_etudes
+        Fonction: eleveIngenieur
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Benkimoun Samuel</name>
+            <description>
+        Employeur: UPEM
+        Direction: UPEM.ERD
+        Service: UPEM.ERD.IST
+        Fonction: etudiant
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Samassa Mamady</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.Direction_des_Etudes
+        Service: ENSG.Direction_des_Etudes.TSI
+        Fonction: eleveIngenieur
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>LESSAM Coil</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.Direction_des_Etudes
+        Service: ENSG.Direction_des_Etudes.TSI
+        Fonction: etudiant
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>Parisel Camille</name>
+            <description>
+        Employeur: ENSG
+        Direction: ENSG.Direction_des_Etudes
+        Service: ENSG.Direction_des_Etudes.TSI
+        Fonction: eleveFonctionnaire
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark xmlns="">
+            <name>MAZIERE Romain</name>
+            <description>
+        Employeur: UPEM
+        Direction: UPEM.ERD
+        Service: UPEM.ERD.IST
+        Fonction: enFormationContinue
+        Lieu: lENSG
+        Adresse: 6 Avenue Blaise Pascal 77420 Marne-la-vallée</description>
+            <Point>
+                <coordinates>2.587334,48.841050</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tsi2016 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="tsi2016Final.xsd"
+	xmlns="http://www.ensg.eu/tsi2016"
+    xmlns:tsi2016="http://www.ensg.eu/tsi2016">
+
+	<Personne nom="hamya" prenom="hind" employeur="ENSG" service="ENSG.ERD.IST" lieu="lENSG">
+	     <Fonction role="etudiant"/>
+	</Personne>
+
+	<Personne nom="derbouz" prenom="hanane" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+	   	 <Fonction role="etudiant"/>
+	</Personne>
+
+	<Personne nom="BALTZ" prenom="Hugo" employeur="ENSG" service="ENSG.DRE.DE" lieu="lENSG">
+		<Fonction role="eleveIngenieur"/>
+	</Personne>
+
+	<Personne nom="BRINON" prenom="Victor" employeur="ENSG" service="ENSG.DRE.DE" lieu="lENSG">
+		<Fonction role="eleveFonctionnaire"/>
+	</Personne>
+
+	<Personne nom="MILLET" prenom="Rudolf" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+		<Fonction role="eleveIngenieur"/>
+	</Personne>
+
+	<Personne nom="Er-razki" prenom="Sibawaih" employeur="ENSG" service="ENSG.DRE.Ministere_de_l_ecologie" lieu="lENSG">
+		<Fonction role="eleveIngenieur"/>
+	</Personne>
+
+	<Personne nom="SLIM" prenom="Anas" employeur="UPEM" service="UPEM.DRE.Ministere_de_l_enseignement_sup" lieu="lENSG">
+	    <Fonction role="etudiant"/>
+	</Personne>
+  
+	<Personne nom="Marcuzzi" prenom="Julie" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="lENSG">
+		<Fonction role="eleveFonctionnaire"/>   	
+	</Personne>
+
+	<Personne nom="Darroman" prenom="Elsa" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="lENSG">
+		<Fonction role="eleveIngenieur"/>
+	</Personne>
+
+	<Personne nom="Benkimoun" prenom="Samuel" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+		<Fonction role="etudiant"/>
+	</Personne>
+
+	<Personne nom="Samassa" prenom="Mamady" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+		<Fonction role="eleveIngenieur"/>
+	</Personne>
+
+	<Personne nom="LESSAM" prenom="Coil" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+		<Fonction role="etudiant"/> 
+	</Personne>
+
+	<Personne nom="Parisel" prenom="Camille" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+		<Fonction role="eleveFonctionnaire"/> 
+	</Personne>
+
+	<Personne nom="MAZIERE" prenom="Romain" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+		<Fonction role="enFormationContinue"/> 
+	</Personne>	
+
+	<Employeur nom="ENSG">
+		<Direction nom="ENSG.DRE">
+			<Service nom="ENSG.DRE.Direction_des_etudes" agents="200"/>
+			<Service nom="ENSG.DRE.Ministere_de_l_ecologie" agents="120"/>
+			<Service nom="ENSG.DRE.DE" agents="120"/>
+	   	 </Direction>
+		<Direction nom="ENSG.Direction_des_Etudes">
+			<Service nom="ENSG.Direction_des_Etudes.TSI" agents="120"/>
+	   	 </Direction>
+		<Direction nom="ENSG.Ressource_humaine">
+			<Service nom="ENSG.Ressource_humaine.DE" agents="120"/>
+	   	 </Direction>
+		<Direction nom="ENSG.ERD">
+			<Service nom="ENSG.ERD.IST" agents="14"/>
+	   	 </Direction>
+	</Employeur>
+
+	<Employeur nom="UPEM">
+		<Direction nom="UPEM.DRE">
+			<Service nom="UPEM.DRE.Direction_des_etudes" agents="200"/>
+			<Service nom="UPEM.DRE.Ministere_de_l_enseignement_sup" agents="1220"/>
+			<Service nom="UPEM.DRE.DE" agents="120"/>
+	   	 </Direction>
+		<Direction nom="UPEM.Direction_des_Etudes">
+			<Service nom="UPEM.Direction_des_Etudes.TSI" agents="120"/>
+	   	 </Direction>
+		<Direction nom="UPEM.Ressource_humaine">
+			<Service nom="UPEM.Ressource_humaine.DE" agents="120"/>
+	   	 </Direction>
+		<Direction nom="UPEM.ERD">
+			<Service nom="UPEM.ERD.IST" agents="14"/>
+	   	 </Direction>
+	</Employeur>
+
+	<Lieu nom="lENSG">
+		 <Adresse no="6" rue="Avenue Blaise Pascal" codePostal="77420" ville="Marne-la-vallée"/>
+         <Coordonnee lat="48.841050" long="2.587334" />
+	</Lieu>
+</tsi2016>
